@@ -79,7 +79,8 @@ a{color:inherit}
   box-shadow:var(--shadow);color:var(--green);
 }
 .chips-wrap{padding-bottom:0;margin-bottom:0}
-.chips{margin-top:-2.4rem;transform:none}
+.chips{margin:-2.4rem auto 0;transform:none;position:relative;z-index:2}
+.chips-wrap{background:transparent;padding-bottom:.4rem}
 
 /* Sections */
 .section{padding:3rem 0 0}
